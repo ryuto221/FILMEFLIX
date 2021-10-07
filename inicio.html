@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>Descrição</title>
 </head>
 <body>
@@ -16,6 +17,10 @@
         body{
             background-color: rgb(36, 36, 36);
             color: red;
+        }
+
+        .container{
+            text-align: center;
         }
 
         .link1{
@@ -59,27 +64,17 @@
         a:hover {
             background-color: rgb(82, 82, 82);
             transition: 1s;
+            color: red;
+            text-decoration: none;
         }
 
         .aproveite{
             text-align: center;
         }
 
-        .imagem1{
-            width: 400px;
-            height: 650px;
-            padding-right: 90px;
-        }
-
-        .imagem2{
-            width: 400px;
-            height: 650px;
-        }
-
-        .imagem3{
-            width: 400px;
-            height: 650px;
-            padding-left: 90px;
+        .imagem{
+            width: 300px;
+            height: 500px;
         }
 
         .meio{
@@ -123,15 +118,37 @@
             <h3>Aproveite os nossos filmes:</h3>
         </div>
         <br><br><br><br>
-        <div class="nome">
-            <h4 class="nome1">Maze Runner:</h4>
-            <h4 class="nome2">Vingadores Ultimato:</h4>
-            <h4 class="nome3">Halloween:</h4>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    Maze Runner:
+                </div>
+                <div class="col">
+                    Vingadores Ultimato:    
+                </div>
+                <div class="col">
+                    Halloween:
+                </div>
+                <div class="w-100"></div>
+                <div class="col">
+                    <a href="maze.html">
+                        <img class="imagem" src="imagem/maze.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="maze.html">
+                        <img class="imagem" src="/imagem/ultimato.png" alt="">
+                    </a>    
+                </div>
+                <div class="col">
+                    <a href="/halloween.html">
+                        <img class="imagem" src="/imagem/halloween.jpg" alt="">
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="meio">
-            <img class="imagem1" src="imagem/maze.jpg" alt="">
-            <img class="imagem2" src="imagem/ultimato.png" alt="">
-            <img class="imagem3" src="imagem/halloween.jpg" alt="">
-        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
