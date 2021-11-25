@@ -1,0 +1,72 @@
+/* global */
+
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+/* header */
+
+header{
+    background-color: black;
+    color: red;
+    padding: 20px;
+}
+
+header a{
+    float: right;
+    margin-top: -25px;
+    color: red;
+    margin-right: 70px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+/* body */
+
+body{
+    background-color: rgb(36, 36, 36);
+}
+
+.time{
+    color: red;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.icon1{
+    color: red;
+    font-size: 100px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+h6{
+    font-size: 30px;
+}
+
+.icon2{
+    color: red;
+    font-size: 100px;
+    margin-top: 60px;
+    margin-left: 180px;
+    margin-top: -160px;
+}
+
+.icon3{
+    color: red;
+    font-size: 100px;
+    margin-top: 60px;
+    float: right;
+    margin-top: -140px;
+    margin-right: 150px;0
+}
+
+
+
+
+
+
+
