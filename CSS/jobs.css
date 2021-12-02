@@ -30,43 +30,56 @@ body{
     background-color: rgb(36, 36, 36);
 }
 
-.time{
+.title{
     color: red;
-    margin-left: 50px;
     margin-top: 40px;
+    margin-left: 45px;
+}
+
+.icon{
+    color: red;
+    font-size: 120px;
+    margin-top: 41px;
 }
 
 .icon1{
-    color: red;
-    font-size: 100px;
-    margin-top: 60px;
-    text-align: center;
-}
+    color: royalblue;
+    margin-left: 140px;
 
-h6{
-    font-size: 30px;
 }
 
 .icon2{
-    color: red;
-    font-size: 100px;
-    margin-top: 60px;
-    margin-left: 180px;
-    margin-top: -160px;
+    color: green;
+    margin-left: 540px;
 }
 
 .icon3{
-    color: red;
-    font-size: 100px;
-    margin-top: 60px;
+    color: grey;
     float: right;
-    margin-top: -140px;
-    margin-right: 150px;0
+    margin-right: 150px;
 }
 
 
+.p1{
+    color: red;
+    margin-left: 100px;
+    display: inline-block;
+    
+}
+
+.p2{
+    color: red;
+    display: inline-block;
+    margin-left: 500px;
+    margin-bottom: ;
 
 
+}
 
+.p3{
+    color: red;
+    display: inline-block;
+    float: right;
+}
 
 
